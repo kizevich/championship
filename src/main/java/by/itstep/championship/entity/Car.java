@@ -2,9 +2,9 @@ package main.java.by.itstep.championship.entity;
 
 public class Car {
 
-    private int maxSpeed;
-    private int speedup;
-    private int driveAbility; // from 1 to 5
+    private float maxSpeed;
+    private float speedup;
+    private float driveAbility; // from 1 to 5
 
     public Car(int maxSpeed, int speedup, int driveAbility) {
         this.maxSpeed = maxSpeed;
@@ -12,15 +12,15 @@ public class Car {
         this.driveAbility = driveAbility;
     }
 
-    public int getMaxSpeed() {
+    public float getMaxSpeed() {
         return maxSpeed;
     }
 
-    public int getSpeedup() {
+    public float getSpeedup() {
         return speedup;
     }
 
-    public int getDriveAbility() {
+    public float getDriveAbility() {
         return driveAbility;
     }
 }

@@ -7,13 +7,15 @@ public class Crew {
     private Car car;
     private Driver driver;
     private Team team;
-    private int time;
+    private float time;
+    private float speed;
 
     public Crew(Car car, Driver driver, Team team) {
         this.car = car;
         this.driver = driver;
         this.team = team;
         this.time = 0;
+        this.speed = 0;
     }
 
     public Car getCar() {
@@ -34,7 +36,15 @@ public class Crew {
 
     public Team getTeam() { return team; }
 
-    public int getTime() { return time; }
+    public float getTime() { return time; }
 
-    public void setTime(int time) { this.time = time; }
+    public void setTime(float time) { this.time = time; }
+
+    public float getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 }

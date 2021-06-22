@@ -7,6 +7,7 @@ public enum PartOfTrack {
     TURN1(100, 3),
     TURN2(50, 5);
 
+    private int id;
     private int length;
     private int steepness; // from 1 to 5
 
@@ -25,5 +26,13 @@ public enum PartOfTrack {
 
     public int getSteepness() {
         return steepness;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
