@@ -3,7 +3,9 @@ package main.java.by.itstep.championship.service.impl;
 import main.java.by.itstep.championship.dao.CrewDao;
 import main.java.by.itstep.championship.dao.DaoFactory;
 import main.java.by.itstep.championship.entity.Car;
+import main.java.by.itstep.championship.entity.Crew;
 import main.java.by.itstep.championship.entity.Driver;
+import main.java.by.itstep.championship.entity.enums.PartOfTrack;
 import main.java.by.itstep.championship.service.CrewService;
 
 public class CrewServiceImpl implements CrewService {
@@ -27,5 +29,10 @@ public class CrewServiceImpl implements CrewService {
     @Override
     public void changeCar(Car oldCar, Car newCar) {
         crewDao.changeCar(oldCar, newCar);
+    }
+
+    @Override
+    public void drive(Crew crew, PartOfTrack partOfTrack) {
+
     }
 }

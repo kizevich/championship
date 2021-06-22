@@ -1,4 +1,6 @@
-package main.java.by.itstep.championship.entity.track;
+package main.java.by.itstep.championship.entity;
+
+import main.java.by.itstep.championship.entity.enums.PartOfTrack;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.by.itstep.championship.entity.track;
+package main.java.by.itstep.championship.entity.enums;
 
 public enum PartOfTrack {
 
